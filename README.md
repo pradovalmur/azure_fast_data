@@ -2,7 +2,7 @@
 
 ## Project Objective
 
-[//]: # "Provide an infrastructure capable of handling Batch and Streaming data (lambda architecture) in the Microsoft Azure environment"
+"Provide an infrastructure capable of handling Batch and Streaming data (lambda architecture) in the Microsoft Azure environment"
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@
 
 ## Installation
 
-[//]: # "For this infrastructure to be available, it is necessary to download terraform, azure CLI. Then log in to your Azure account using the az login command and after reviewing the resources, run terraform apply."
+"For this infrastructure to be available, it is necessary to download terraform, azure CLI. Then log in to your Azure account using the az login command and after reviewing the resources, run terraform apply."
 
 ## Usage
 
