@@ -14,27 +14,21 @@
 
 ## Installation
 
-"For this infrastructure to be available, it is necessary to download terraform, azure CLI. Then log in to your Azure account using the az login command and after reviewing the resources, run terraform apply."
+After cloning the repository, install Terraform and the Azure CLI. 
 
-## Usage
+Through the Azure CLI, pass the AZ login command to log in to your Azure account (to create the resources, you will need to have an Azure subscription created).
 
-[//]: # "Provide instructions on how to use your project. Include code examples, screenshots, or any relevant information."
+Before running the terraform apply command, check the variable.tf file and set the location variable to the location you want to use. 
+
+In the terminal run the command, access the path azure_fast_data/infrastructure and run the command terraform Plan, to view the components that will be created, then if you agree, run the command terraform apply.  
+
+After testing, don't forget to run the terraform destroy command, to remove the resources and not create unnecessary costs in the Azure environment.
+
 
 ### Infrastructure Images
 
-[//]: # "Attach images showcasing your project's infrastructure, architecture, or any relevant diagrams."
+[//]: https://github.com/pradovalmur/azure_fast_data/blob/main/infrastructure/Untitled%20Diagram.drawio
 
-#### Image 1: [Add Image Description]
-
-![Image 1](link_to_image_1.png)
-
-#### Image 2: [Add Image Description]
-
-![Image 2](link_to_image_2.png)
-
-#### Image 3: [Add Image Description]
-
-![Image 3](link_to_image_3.png)
 
 ## Contributing
 
