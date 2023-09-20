@@ -27,7 +27,7 @@ After testing, don't forget to run the terraform destroy command, to remove the 
 
 ### Infrastructure Images
 
-[//]: (https://github.com/pradovalmur/azure_fast_data/blob/main/infrastructure/Untitled%20Diagram.drawio.png)
+![infra image]: (https://github.com/pradovalmur/azure_fast_data/blob/main/infrastructure/Untitled%20Diagram.drawio.png)
 
 
 ## Contributing
