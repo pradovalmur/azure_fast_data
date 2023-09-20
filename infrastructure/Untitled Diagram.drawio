@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" modified="2023-09-20T14:25:56.108Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="m4yXYqzrNNzg3RdgrLK5" version="21.6.1" type="github">
+  <diagram name="Page-1" id="vRk5NIe8d44oLqLz6w0p">
+    <mxGraphModel dx="2074" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-48" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44505C;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="40" y="85" width="760" height="505" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="120" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="69.88" y="347.5" as="sourcePoint" />
+            <mxPoint x="246.99872487768278" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="348" />
+              <mxPoint x="90" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Event_Hubs.svg;" vertex="1" parent="1">
+          <mxGeometry x="66" y="347.5" width="50.25" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Data_Lake_Store_Gen1.svg;" vertex="1" parent="1">
+          <mxGeometry x="290" y="125" width="24.61" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TJ8l8VOJJD5JofLOiGNv-4" target="TJ8l8VOJJD5JofLOiGNv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TJ8l8VOJJD5JofLOiGNv-4" target="TJ8l8VOJJD5JofLOiGNv-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="349" />
+              <mxPoint x="450" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-6" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
+          <mxGeometry x="690" y="305.5" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-9" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/folder.svg;" vertex="1" parent="1">
+          <mxGeometry x="241.75" y="200" width="36.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-11" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/folder.svg;" vertex="1" parent="1">
+          <mxGeometry x="238.29999999999998" y="440" width="36.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-12" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/folder.svg;" vertex="1" parent="1">
+          <mxGeometry x="243" y="315" width="28.25" height="38.7" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-16" value="snapshot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="227.13" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-17" value="config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="216.13" y="490" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-18" value="event storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220.62999999999997" y="252" width="79.58" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-19" value="Data lake Gen2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="199.99999999999997" y="125" width="79.58" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TJ8l8VOJJD5JofLOiGNv-4" target="TJ8l8VOJJD5JofLOiGNv-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="349" />
+              <mxPoint x="440" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TJ8l8VOJJD5JofLOiGNv-4" target="TJ8l8VOJJD5JofLOiGNv-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="501" y="290" />
+              <mxPoint x="634" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TJ8l8VOJJD5JofLOiGNv-4" target="TJ8l8VOJJD5JofLOiGNv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" vertex="1" parent="1">
+          <mxGeometry x="470" y="315" width="62.8" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-22" value="Event Hub Topic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="54.120000000000005" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-23" value="Cosmos DB Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="681" y="390" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-25" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-27" value="Secrets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="593" y="92" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-28" value="Databricks Jobs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460.4" y="392.5" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-30" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="49" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-31" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-32" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-33" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-34" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="319.35" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-35" value="6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="542.4" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-37" value="Infrastructure Azure Fast Data" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="600" width="750" height="210" as="geometry">
+            <mxRectangle x="40" y="600" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-38" value="1 - The EventHub topic stores the events received in the event storage folder every 5 minutes or every 100MB. " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TJ8l8VOJJD5JofLOiGNv-37">
+          <mxGeometry y="30" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-39" value="2 - Databricks reads the event storage folder into a delta live table for subsequent data modeling in the cosmos DB container." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TJ8l8VOJJD5JofLOiGNv-37">
+          <mxGeometry y="60" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-40" value="&lt;div&gt;3 -Databricks takes a regular snapshot of the container, in delta format, for possible rollback processing. &lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TJ8l8VOJJD5JofLOiGNv-37">
+          <mxGeometry y="90" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-44" value="4 - Job Databricks uses configuration files and data models in SQL, stored in the configs folder." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TJ8l8VOJJD5JofLOiGNv-37">
+          <mxGeometry y="120" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-45" value="5 - Once the model has been applied, the data will be stored in the CosmosDB container via upsert" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TJ8l8VOJJD5JofLOiGNv-37">
+          <mxGeometry y="150" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-46" value="6- or the connections between the resources to work securely, the access keys are stored in the azure key vault" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TJ8l8VOJJD5JofLOiGNv-37">
+          <mxGeometry y="180" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-47" value="Azure fast Data Infrastructure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="49" y="40" width="764.87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TJ8l8VOJJD5JofLOiGNv-50" value="Resource group DEV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="520" y="560" width="240" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
