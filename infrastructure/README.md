@@ -8,7 +8,7 @@
 
 - [Overview](#project-objective)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Infra](#Infrastructure)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -25,7 +25,7 @@ In the terminal run the command, access the path azure_fast_data/infrastructure 
 After testing, don't forget to run the terraform destroy command, to remove the resources and not create unnecessary costs in the Azure environment.
 
 
-### Infrastructure Images
+### Infrastructure
 
 ![infra image](https://github.com/pradovalmur/azure_fast_data/blob/main/infrastructure/infra.png)
 
