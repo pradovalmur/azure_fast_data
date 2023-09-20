@@ -1,7 +1,22 @@
+terraform {
+  required_providers {
+    random = {
+      source = "hashicorp/random"
+      version = "2.3.0"
+    }
+  }
+}
+
+
 # Define Azure provider
 provider "azurerm" {
     skip_provider_registration = "true"
     features {}
+}
+
+resource "random_integer" "cm-randon-id" {
+  min = 1
+  max = 10000
 }
 
 # Create resource group
@@ -12,7 +27,7 @@ resource "azurerm_resource_group" "cm_dev" {
 
 # Create Azure EventHub Namespace
 resource "azurerm_eventhub_namespace" "cm_dev_eventHub_namespace"{
-    name                    = "eventhub-namespace-${var.random_number}"
+    name                    = "eventhub-namespace-${random_integer.cm-randon-id.result}"
     location                = azurerm_resource_group.cm_dev.location
     resource_group_name     = azurerm_resource_group.cm_dev.name
     sku                     = "Standard"
@@ -28,12 +43,13 @@ resource "azurerm_eventhub" "operations" {
   namespace_name      = azurerm_eventhub_namespace.cm_dev_eventHub_namespace.name
   resource_group_name = azurerm_eventhub_namespace.cm_dev_eventHub_namespace.resource_group_name
   partition_count     = 4 # Customize as needed
+
 message_retention       =   1
 }
 
 # Create a Consumption Group for Databricks
 resource "azurerm_eventhub_consumer_group" "cm-consumergroup-databricks" {
-  name                = "cg-databricks-${var.random_number}"
+  name                = "cg-databricks-${random_integer.cm-randon-id.result}"
   eventhub_name       = azurerm_eventhub.operations.name
   namespace_name      = azurerm_eventhub_namespace.cm_dev_eventHub_namespace.name
   resource_group_name = azurerm_eventhub_namespace.cm_dev_eventHub_namespace.resource_group_name
@@ -41,7 +57,7 @@ resource "azurerm_eventhub_consumer_group" "cm-consumergroup-databricks" {
 
 # Create an Azure Cosmos DB Core (SQL) account
 resource "azurerm_cosmosdb_account" "cm-comsosdb" {
-  name                = "cosmos-${var.random_number}"
+  name                = "cosmos-${random_integer.cm-randon-id.result}"
   location            = azurerm_resource_group.cm_dev.location
   resource_group_name = azurerm_resource_group.cm_dev.name
   offer_type          = "Standard"
@@ -63,10 +79,23 @@ resource "azurerm_cosmosdb_account" "cm-comsosdb" {
 
 # Create an Azure Databricks workspace
 resource "azurerm_databricks_workspace" "cm-databricks-workspace" {
-  name                = "databricks-${var.random_number}"
+  name                = "databricks-${random_integer.cm-randon-id.result}"
   location            = azurerm_resource_group.cm_dev.location
   resource_group_name = azurerm_resource_group.cm_dev.name
   sku                 = "standard"
  
 }
 
+resource "azurerm_storage_account" "cm-storage" {
+  name                     = "cmstorage${random_integer.cm-randon-id.result}"
+  resource_group_name      = azurerm_resource_group.cm_dev.name
+  location                 = azurerm_resource_group.cm_dev.location
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+  }
+
+resource "azurerm_storage_container" "cm-container" {
+  name                  = "cm-storage"
+  storage_account_name  = azurerm_storage_account.cm-storage.name
+  container_access_type = "private"
+}
